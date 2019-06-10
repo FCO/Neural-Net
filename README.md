@@ -18,8 +18,8 @@ my Int $output-neurons = 1;
 my Function @hidden-functions;
 my Rat @hidden-neurons;
 
-my NeuralNet $neural-net = neural-net(@inpucts, $output-neurons, @hidden-neurons,
-	@hidden-functions, $output-neuron)
+my NeuralNet $neural-net = neural-net(@inputs, $output-neurons, @hidden-neurons,
+	@hidden-functions, $output-neurons)
 
 $neural-net.calc;
 
